@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PhysicalItems>
+    <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>ShieldPoint</SubtypeId>
+      </Id>
+      <DisplayName>Shield Regenerating</DisplayName>
+      <Icon>Textures\Icons\Recharge.dds</Icon>
+      <Size>
+        <X>0.072</X>
+        <Y>0.072</Y>
+        <Z>0.072</Z>
+      </Size>
+      <Mass>0.00001</Mass>
+      <Volume>0.0001</Volume>
+      <Model>Models\Ingots\stone_ingot.mwm</Model>
+    </PhysicalItem>
+	
+	    <PhysicalItem>
+      <Id>
+        <TypeId>Ingot</TypeId>
+        <SubtypeId>Coin</SubtypeId>
+      </Id>
+      <DisplayName>XiaoFan Coin</DisplayName>
+      <Icon>Textures\GUI\Icons\gold_bars.dds</Icon>
+      <Size>
+        <X>0.046</X>
+        <Y>0.046</Y>
+        <Z>0.046</Z>
+      </Size>
+      <Mass>0.01</Mass>
+      <Volume>0.00095</Volume>
+      <Model>Models\Ingots\gold_ingot.mwm</Model>
+      <PhysicalMaterial>Metal</PhysicalMaterial>
+      <IconSymbol>Fan</IconSymbol>
+    </PhysicalItem>
+	
+  </PhysicalItems>
+</Definitions>
