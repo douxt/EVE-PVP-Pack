@@ -49,5 +49,6 @@
   <Entry Class="Buy" BlueprintSubtypeId="CoinToGoldIngot" />
   <Entry Class="Buy" BlueprintSubtypeId="CoinToPlatinumIngot" />
   <Entry Class="Buy" BlueprintSubtypeId="CoinToUraniumIngot" />
+    <Entry Class="Buy" BlueprintSubtypeId="CoinToXiaoFan" /> 
   </BlueprintClassEntries>
 </Definitions>

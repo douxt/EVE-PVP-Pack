@@ -10,6 +10,8 @@
       <Name>LargeBlocks</Name>
       <ItemIds>
 		<string>Assembler/BlackShop</string>
+		<string>Assembler/MoneyMaker</string>
+		<string>CargoContainer/FuBox</string>
 	  </ItemIds>
     </Category>
 	
@@ -22,6 +24,8 @@
       <Name>Production</Name>
       <ItemIds>
         <string>Assembler/BlackShop</string>
+		<string>Assembler/MoneyMaker</string>
+		<string>CargoContainer/FuBox</string>
       </ItemIds>
     </Category>
   </CategoryClasses>

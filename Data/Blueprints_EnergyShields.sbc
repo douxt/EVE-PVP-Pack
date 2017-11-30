@@ -299,5 +299,18 @@
       <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
     </Blueprint>
 	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>CoinToXiaoFan</SubtypeId>
+      </Id>
+      <DisplayName>XiaoFan</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="10000" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="XiaoFan" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
   </Blueprints>
 </Definitions>
