@@ -82,38 +82,106 @@
       <CooldownSeconds>660</CooldownSeconds>
       <Prefab>Respawn Ship 3</Prefab>
     </Ship>
-
-	<Ship>
-      <Id>
-        <TypeId>RespawnShipDefinition</TypeId>
-        <SubtypeId>BaseShip</SubtypeId>
-      </Id>
-      <DisplayName>基地船(首选)</DisplayName>
-      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
-      <CooldownSeconds>864000</CooldownSeconds>
-      <Prefab>BaseShip</Prefab>
-    </Ship>	
-	
-	<Ship>
-      <Id>
-        <TypeId>RespawnShipDefinition</TypeId>
-        <SubtypeId>StarWar</SubtypeId>
-      </Id>
-      <DisplayName>星战战机</DisplayName>
-      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
-      <CooldownSeconds>1800</CooldownSeconds>
-      <Prefab>StarWar</Prefab>
-    </Ship>	
 	
 	<Ship>
       <Id>
         <TypeId>RespawnShipDefinition</TypeId>
         <SubtypeId>Simple</SubtypeId>
       </Id>
-      <DisplayName>简单战机</DisplayName>
+      <DisplayName>1(小)简单战机</DisplayName>
       <Icon>Textures\GUI\Icons\Fake.dds</Icon>
       <CooldownSeconds>600</CooldownSeconds>
       <Prefab>Simple</Prefab>
+    </Ship>	
+
+	
+	<Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>StarWar</SubtypeId>
+      </Id>
+      <DisplayName>2(小)星战战机</DisplayName>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <CooldownSeconds>1200</CooldownSeconds>
+      <Prefab>StarWar</Prefab>
+    </Ship>	
+	
+	<Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>矮脚鸡</SubtypeId>
+      </Id>
+      <DisplayName>3(小)无聊•矮脚鸡</DisplayName>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <CooldownSeconds>1800</CooldownSeconds>
+      <Prefab>矮脚鸡</Prefab>
+    </Ship>
+	
+	<Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>Fighter-X</SubtypeId>
+      </Id>
+      <DisplayName>4(小)XENON•Fighter-X</DisplayName>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <CooldownSeconds>1800</CooldownSeconds>
+      <Prefab>Fighter-X</Prefab>
+    </Ship>
+
+	<Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>螳螂虾</SubtypeId>
+      </Id>
+      <DisplayName>5(大)獠牙•螳螂虾</DisplayName>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <CooldownSeconds>14400</CooldownSeconds>
+      <Prefab>螳螂虾</Prefab>
+    </Ship>
+	
+	<Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>蝎鲎</SubtypeId>
+      </Id>
+      <DisplayName>6(大)獠牙•蝎鲎</DisplayName>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <CooldownSeconds>14400</CooldownSeconds>
+      <Prefab>蝎鲎</Prefab>
+    </Ship>	
+	
+	<Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>萌豚号</SubtypeId>
+      </Id>
+      <DisplayName>7(大)轨迹•萌豚号</DisplayName>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <CooldownSeconds>14400</CooldownSeconds>
+      <Prefab>萌豚号001</Prefab>
+    </Ship>	
+	
+	<Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>怼死你</SubtypeId>
+      </Id>
+      <DisplayName>8(豪华)轨迹•怼死你</DisplayName>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <CooldownSeconds>86400</CooldownSeconds>
+      <Prefab>怼死你001</Prefab>
+    </Ship>	
+	
+	
+	<Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>BaseShip</SubtypeId>
+      </Id>
+      <DisplayName>9(生产)基地船</DisplayName>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <CooldownSeconds>86400</CooldownSeconds>
+      <Prefab>BaseShip</Prefab>
     </Ship>	
 	
   </RespawnShips>                
