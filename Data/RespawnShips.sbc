@@ -176,12 +176,24 @@
 	<Ship>
       <Id>
         <TypeId>RespawnShipDefinition</TypeId>
-        <SubtypeId>BaseShip</SubtypeId>
+        <SubtypeId>基础基地船</SubtypeId>
       </Id>
-      <DisplayName>9(生产)基地船</DisplayName>
+      <DisplayName>9(生产)基础基地船</DisplayName>
+      <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+      <CooldownSeconds>43200</CooldownSeconds>
+      <Prefab>基础基地船</Prefab>
+    </Ship>	
+	
+	
+	<Ship>
+      <Id>
+        <TypeId>RespawnShipDefinition</TypeId>
+        <SubtypeId>我去对面买几个橘子，你就在此地不要走动</SubtypeId>
+      </Id>
+      <DisplayName>0(生产)豪华基地船</DisplayName>
       <Icon>Textures\GUI\Icons\Fake.dds</Icon>
       <CooldownSeconds>86400</CooldownSeconds>
-      <Prefab>BaseShip</Prefab>
+      <Prefab>我去对面买几个橘子，你就在此地不要走动</Prefab>
     </Ship>	
 	
   </RespawnShips>                
