@@ -71,36 +71,36 @@
   <Entry Class="Buy" BlueprintSubtypeId="CoinToPlatinumIngot" />
   <Entry Class="Buy" BlueprintSubtypeId="CoinToUraniumIngot" />
     <Entry Class="Buy" BlueprintSubtypeId="CoinToXiaoFan" /> 
+	<!--
+	<Entry Class="Components" BlueprintSubtypeId="ConstructionComponent" />
+    <Entry Class="Components" BlueprintSubtypeId="GirderComponent" />
+    <Entry Class="Components" BlueprintSubtypeId="MetalGrid" />
+    <Entry Class="Components" BlueprintSubtypeId="InteriorPlate" />
+    <Entry Class="Components" BlueprintSubtypeId="SteelPlate" />
+    <Entry Class="Components" BlueprintSubtypeId="SmallTube" />
+    <Entry Class="Components" BlueprintSubtypeId="LargeTube" />
+    <Entry Class="Components" BlueprintSubtypeId="MotorComponent" />
+    <Entry Class="Components" BlueprintSubtypeId="Display" />
+    <Entry Class="Components" BlueprintSubtypeId="BulletproofGlass" />
+    <Entry Class="Components" BlueprintSubtypeId="ComputerComponent" />
+    <Entry Class="Components" BlueprintSubtypeId="ReactorComponent" />
+    <Entry Class="Components" BlueprintSubtypeId="ThrustComponent" />
+    <Entry Class="Components" BlueprintSubtypeId="GravityGeneratorComponent" />
+    <Entry Class="Components" BlueprintSubtypeId="MedicalComponent" />
+    <Entry Class="Components" BlueprintSubtypeId="RadioCommunicationComponent" />
+    <Entry Class="Components" BlueprintSubtypeId="DetectorComponent" />
+    <Entry Class="Components" BlueprintSubtypeId="ExplosivesComponent" />
+    <Entry Class="Components" BlueprintSubtypeId="NATO_5p56x45mmMagazine" />
+    <Entry Class="Components" BlueprintSubtypeId="NATO_25x184mmMagazine" />
+    <Entry Class="Components" BlueprintSubtypeId="Missile200mm" />
+    <Entry Class="Components" BlueprintSubtypeId="SolarCell" />
+    <Entry Class="Components" BlueprintSubtypeId="PowerCell" />
+    <Entry Class="Components" BlueprintSubtypeId="Superconductor" />
+    <Entry Class="Components" BlueprintSubtypeId="Canvas" />-
 	
-	<Entry Class="SComponents" BlueprintSubtypeId="SConstructionComponent" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SGirderComponent" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SMetalGrid" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SInteriorPlate" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SSteelPlate" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SSmallTube" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SLargeTube" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SMotorComponent" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SDisplay" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SBulletproofGlass" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SComputerComponent" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SReactorComponent" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SThrustComponent" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SGravityGeneratorComponent" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SMedicalComponent" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SRadioCommunicationComponent" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SDetectorComponent" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SExplosivesComponent" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SNATO_5p56x45mmMagazine" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SNATO_25x184mmMagazine" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SMissile200mm" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SSolarCell" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SPowerCell" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SSuperconductor" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SCanvas" />
-	
-	<Entry Class="SComponents" BlueprintSubtypeId="SArcReactorcomponent" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SDenseSteelPlate" />
-    <Entry Class="SComponents" BlueprintSubtypeId="SArcFuel" />
+	<Entry Class="Components" BlueprintSubtypeId="SArcReactorcomponent" />
+    <Entry Class="Components" BlueprintSubtypeId="SDenseSteelPlate" />
+    <Entry Class="Components" BlueprintSubtypeId="SArcFuel" />-->
 	
 	<Entry Class="STools" BlueprintSubtypeId="SAutomaticRifle" />
     <Entry Class="STools" BlueprintSubtypeId="SRapidFireAutomaticRifle" />

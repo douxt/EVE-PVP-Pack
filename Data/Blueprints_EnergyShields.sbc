@@ -316,7 +316,7 @@
 	 <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SConstructionComponent</SubtypeId>
+        <SubtypeId>ConstructionComponent</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_ConstructionComponent</DisplayName>
       <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
@@ -329,7 +329,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SGirderComponent</SubtypeId>
+        <SubtypeId>GirderComponent</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_Girder</DisplayName>
       <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
@@ -342,7 +342,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SMetalGrid</SubtypeId>
+        <SubtypeId>MetalGrid</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
       <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
@@ -355,7 +355,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SInteriorPlate</SubtypeId>
+        <SubtypeId>InteriorPlate</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_InteriorPlate</DisplayName>
       <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
@@ -368,7 +368,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SSteelPlate</SubtypeId>
+        <SubtypeId>SteelPlate</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
       <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
@@ -381,7 +381,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SSmallTube</SubtypeId>
+        <SubtypeId>SmallTube</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_SmallSteelTube</DisplayName>
       <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
@@ -394,7 +394,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SLargeTube</SubtypeId>
+        <SubtypeId>LargeTube</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_LargeSteelTube</DisplayName>
       <Icon>Textures\GUI\Icons\component\large_tube_component.dds</Icon>
@@ -407,7 +407,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SMotorComponent</SubtypeId>
+        <SubtypeId>MotorComponent</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_Motor</DisplayName>
       <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
@@ -420,7 +420,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SDisplay</SubtypeId>
+        <SubtypeId>Display</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_Display</DisplayName>
       <Icon>Textures\GUI\Icons\component\display_component.dds</Icon>
@@ -433,7 +433,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SBulletproofGlass</SubtypeId>
+        <SubtypeId>BulletproofGlass</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_BulletproofGlass</DisplayName>
       <Icon>Textures\GUI\Icons\component\bulletproof_glass_component.dds</Icon>
@@ -446,7 +446,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SComputerComponent</SubtypeId>
+        <SubtypeId>ComputerComponent</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_Computer</DisplayName>
       <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
@@ -459,7 +459,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SReactorComponent</SubtypeId>
+        <SubtypeId>ReactorComponent</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_ReactorComponents</DisplayName>
       <Icon>Textures\GUI\Icons\component\reactor_components_component.dds</Icon>
@@ -472,7 +472,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SThrustComponent</SubtypeId>
+        <SubtypeId>ThrustComponent</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_ThrustComponents</DisplayName>
       <Icon>Textures\GUI\Icons\component\thrust_components_component.dds</Icon>
@@ -485,7 +485,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SGravityGeneratorComponent</SubtypeId>
+        <SubtypeId>GravityGeneratorComponent</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_GravityGeneratorComponents</DisplayName>
       <Icon>Textures\GUI\Icons\component\gravity_generator_components_component.dds</Icon>
@@ -498,7 +498,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SMedicalComponent</SubtypeId>
+        <SubtypeId>MedicalComponent</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_MedicalComponents</DisplayName>
       <Icon>Textures\GUI\Icons\component\medical_components_component.dds</Icon>
@@ -511,7 +511,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SRadioCommunicationComponent</SubtypeId>
+        <SubtypeId>RadioCommunicationComponent</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_RadioCommunicationComponents</DisplayName>
       <Icon>Textures\GUI\Icons\component\radio_communication_components_component.dds</Icon>
@@ -524,7 +524,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SDetectorComponent</SubtypeId>
+        <SubtypeId>DetectorComponent</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_DetectorComponents</DisplayName>
       <Icon>Textures\GUI\Icons\component\detector_components_component.dds</Icon>
@@ -537,7 +537,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SCanvas</SubtypeId>
+        <SubtypeId>Canvas</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_CanvasCartridge</DisplayName>
       <Icon>Textures\GUI\Icons\component\Cartridge_Icon.dds</Icon>
@@ -550,7 +550,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SExplosivesComponent</SubtypeId>
+        <SubtypeId>ExplosivesComponent</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_Explosives</DisplayName>
       <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
@@ -563,7 +563,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SSolarCell</SubtypeId>
+        <SubtypeId>SolarCell</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_SolarCell</DisplayName>
       <Icon>Textures\GUI\Icons\component\SolarCellComponent.dds</Icon>
@@ -576,7 +576,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SPowerCell</SubtypeId>
+        <SubtypeId>PowerCell</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_PowerCell</DisplayName>
       <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
@@ -798,7 +798,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SNATO_5p56x45mmMagazine</SubtypeId>
+        <SubtypeId>NATO_5p56x45mmMagazine</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_NATO_5p56x45mm</DisplayName>
       <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
@@ -811,7 +811,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SNATO_25x184mmMagazine</SubtypeId>
+        <SubtypeId>NATO_25x184mmMagazine</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_NATO_25x184mm</DisplayName>
       <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
@@ -824,7 +824,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SMissile200mm</SubtypeId>
+        <SubtypeId>Missile200mm</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_Missile200mm</DisplayName>
       <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
@@ -837,7 +837,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SSuperconductor</SubtypeId>
+        <SubtypeId>Superconductor</SubtypeId>
       </Id>
       <DisplayName>DisplayName_Item_Superconductor</DisplayName>
       <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
@@ -878,7 +878,7 @@
 	 <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SArcReactorcomponent</SubtypeId>
+        <SubtypeId>ArcReactorcomponent</SubtypeId>
       </Id>
       <DisplayName>Arc Reactor Component</DisplayName>
       <Icon>Textures\GUI\Icons\component\ArcReactorComponent.dds</Icon>
@@ -891,7 +891,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SDenseSteelPlate</SubtypeId>
+        <SubtypeId>DenseSteelPlate</SubtypeId>
       </Id>
       <DisplayName>Dense Steel Plate</DisplayName>
       <Icon>Textures\GUI\Icons\component\DenseSteelPlate.dds</Icon>
@@ -904,7 +904,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>SArcFuel</SubtypeId>
+        <SubtypeId>ArcFuel</SubtypeId>
       </Id>
       <DisplayName>Arc Fuel</DisplayName>
       <Icon>Textures\GUI\Icons\component\ArcFuel.dds</Icon>

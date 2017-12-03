@@ -56,7 +56,7 @@
 		<Class>LargeBlocks</Class>
 		<Class>SmallBlocks</Class>
         <!--<Class>Buy</Class>-->
-		<Class>SComponents</Class>
+		<Class>Components</Class>
 		<Class>STools</Class>
       </BlueprintClasses>
       <DamageEffectId>212</DamageEffectId>
