@@ -54,10 +54,10 @@
       <OperationalPowerConsumption>0.56</OperationalPowerConsumption>
       <BlueprintClasses>
 		<Class>LargeBlocks</Class>
-		<Class>SmallBlocks</Class>
-        <!--<Class>Buy</Class>-->
+		<Class>SmallBlocks</Class>        
 		<Class>Components</Class>
 		<Class>STools</Class>
+		<Class>Buy</Class>
       </BlueprintClasses>
       <DamageEffectId>212</DamageEffectId>
       <DamagedSound>ParticleHeavyMech</DamagedSound>
