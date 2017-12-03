@@ -24,6 +24,27 @@
       <InputConstraintIcon>Textures\GUI\Icons\buttons\coinbuy.dds</InputConstraintIcon>
     </Class>
 	
+	 <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>STools</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Tools</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\tool.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\tool_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+    <Class>
+      <Id>                   
+        <TypeId>BlueprintClassDefinition</TypeId>
+        <SubtypeId>SComponents</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_BlueprintClass_Components</DisplayName>
+      <Icon>Textures\GUI\Icons\buttons\component.dds</Icon>
+      <HighlightIcon>Textures\GUI\Icons\buttons\component_highlight.dds</HighlightIcon>
+      <InputConstraintIcon>Textures\GUI\Icons\filter_ingot.dds</InputConstraintIcon>
+    </Class>
+	
 	
   </BlueprintClasses>
   <BlueprintClassEntries>
@@ -50,5 +71,55 @@
   <Entry Class="Buy" BlueprintSubtypeId="CoinToPlatinumIngot" />
   <Entry Class="Buy" BlueprintSubtypeId="CoinToUraniumIngot" />
     <Entry Class="Buy" BlueprintSubtypeId="CoinToXiaoFan" /> 
+	
+	<Entry Class="SComponents" BlueprintSubtypeId="SConstructionComponent" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SGirderComponent" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SMetalGrid" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SInteriorPlate" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SSteelPlate" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SSmallTube" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SLargeTube" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SMotorComponent" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SDisplay" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SBulletproofGlass" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SComputerComponent" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SReactorComponent" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SThrustComponent" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SGravityGeneratorComponent" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SMedicalComponent" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SRadioCommunicationComponent" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SDetectorComponent" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SExplosivesComponent" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SNATO_5p56x45mmMagazine" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SNATO_25x184mmMagazine" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SMissile200mm" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SSolarCell" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SPowerCell" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SSuperconductor" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SCanvas" />
+	
+	<Entry Class="SComponents" BlueprintSubtypeId="SArcReactorcomponent" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SDenseSteelPlate" />
+    <Entry Class="SComponents" BlueprintSubtypeId="SArcFuel" />
+	
+	<Entry Class="STools" BlueprintSubtypeId="SAutomaticRifle" />
+    <Entry Class="STools" BlueprintSubtypeId="SRapidFireAutomaticRifle" />
+    <Entry Class="STools" BlueprintSubtypeId="SPreciseAutomaticRifle" />
+    <Entry Class="STools" BlueprintSubtypeId="SUltimateAutomaticRifle" />
+    <Entry Class="STools" BlueprintSubtypeId="SWelder" />
+    <Entry Class="STools" BlueprintSubtypeId="SWelder2" />
+    <Entry Class="STools" BlueprintSubtypeId="SWelder3" />
+    <Entry Class="STools" BlueprintSubtypeId="SWelder4" />
+    <Entry Class="STools" BlueprintSubtypeId="SAngleGrinder" />
+    <Entry Class="STools" BlueprintSubtypeId="SAngleGrinder2" />
+    <Entry Class="STools" BlueprintSubtypeId="SAngleGrinder3" />
+    <Entry Class="STools" BlueprintSubtypeId="SAngleGrinder4" />
+    <Entry Class="STools" BlueprintSubtypeId="SHandDrill" />
+    <Entry Class="STools" BlueprintSubtypeId="SHandDrill2" />
+    <Entry Class="STools" BlueprintSubtypeId="SHandDrill3" />
+    <Entry Class="STools" BlueprintSubtypeId="SHandDrill4" />
+    <Entry Class="STools" BlueprintSubtypeId="SOxygenBottle" />
+    <Entry Class="STools" BlueprintSubtypeId="SHydrogenBottle" />
+	
   </BlueprintClassEntries>
 </Definitions>

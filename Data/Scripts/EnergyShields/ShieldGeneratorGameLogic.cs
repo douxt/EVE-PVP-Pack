@@ -69,19 +69,19 @@ namespace Cython.EnergyShields
                     return;
                 }
 
-                IMyInventory inventory = ((Sandbox.ModAPI.IMyTerminalBlock)Entity).GetInventory(0) as IMyInventory;
+    //            IMyInventory inventory = ((Sandbox.ModAPI.IMyTerminalBlock)Entity).GetInventory(0) as IMyInventory;
 
-                if (!inventory.ContainItems(10000, new MyObjectBuilder_Ingot { SubtypeName = "Coin" }))
-                {
-                    //inventory.AddItems(5, new MyObjectBuilder_Ingot { SubtypeName = "Coin" });
-                    //terminalBlock.RefreshCustomInfo();
-                }
-				IMyInventory inventory1 = ((Sandbox.ModAPI.IMyTerminalBlock)Entity).GetInventory(1) as IMyInventory;
-				if (!inventory1.ContainItems(10, new MyObjectBuilder_AmmoMagazine { SubtypeName = "NATO_25x184mm" }))
-                {
-                    inventory1.AddItems(1, new MyObjectBuilder_AmmoMagazine { SubtypeName = "NATO_25x184mm" });
-                    terminalBlock.RefreshCustomInfo();
-                }
+    //            if (!inventory.ContainItems(10000, new MyObjectBuilder_Ingot { SubtypeName = "Coin" }))
+    //            {
+    //                //inventory.AddItems(5, new MyObjectBuilder_Ingot { SubtypeName = "Coin" });
+    //                //terminalBlock.RefreshCustomInfo();
+    //            }
+				//IMyInventory inventory1 = ((Sandbox.ModAPI.IMyTerminalBlock)Entity).GetInventory(1) as IMyInventory;
+				//if (!inventory1.ContainItems(10, new MyObjectBuilder_AmmoMagazine { SubtypeName = "NATO_25x184mm" }))
+    //            {
+    //                inventory1.AddItems(1, new MyObjectBuilder_AmmoMagazine { SubtypeName = "NATO_25x184mm" });
+    //                terminalBlock.RefreshCustomInfo();
+    //            }
 
 
                 //List<IMyPlayer> players = new List<IMyPlayer>();

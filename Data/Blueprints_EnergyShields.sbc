@@ -312,5 +312,608 @@
       <Result Amount="1" TypeId="Component" SubtypeId="XiaoFan" />
       <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
     </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SConstructionComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_ConstructionComponent</DisplayName>
+      <Icon>Textures\GUI\Icons\component\construction_components_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.34" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Construction" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SGirderComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Girder</DisplayName>
+      <Icon>Textures\GUI\Icons\component\girder_component.dds</Icon>
+      <Prerequisites>
+        <Item Amount="0.23" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Girder" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SMetalGrid</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_MetalGrid</DisplayName>
+      <Icon>Textures\GUI\Icons\component\metal_grid_component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="3" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="MetalGrid" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SInteriorPlate</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_InteriorPlate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\interior_plate_component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="0.1" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="InteriorPlate" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SSteelPlate</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SteelPlate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\steel_plate_component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="0.7" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SteelPlate" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SSmallTube</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SmallSteelTube</DisplayName>
+      <Icon>Textures\GUI\Icons\component\small_tube_component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="0.17" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SmallTube" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SLargeTube</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_LargeSteelTube</DisplayName>
+      <Icon>Textures\GUI\Icons\component\large_tube_component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="1" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="LargeTube" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SMotorComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Motor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\motor_component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="2" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Motor" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SDisplay</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Display</DisplayName>
+      <Icon>Textures\GUI\Icons\component\display_component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="0.88" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Display" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SBulletproofGlass</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_BulletproofGlass</DisplayName>
+      <Icon>Textures\GUI\Icons\component\bulletproof_glass_component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="2.5" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="BulletproofGlass" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SComputerComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Computer</DisplayName>
+      <Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="0.05" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Computer" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SReactorComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_ReactorComponents</DisplayName>
+      <Icon>Textures\GUI\Icons\component\reactor_components_component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="20" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Reactor" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SThrustComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_ThrustComponents</DisplayName>
+      <Icon>Textures\GUI\Icons\component\thrust_components_component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="200" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Thrust" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SGravityGeneratorComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_GravityGeneratorComponents</DisplayName>
+      <Icon>Textures\GUI\Icons\component\gravity_generator_components_component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="1000" TypeId="Ingot" SubtypeId="Coin" />
+       </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="GravityGenerator" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SMedicalComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_MedicalComponents</DisplayName>
+      <Icon>Textures\GUI\Icons\component\medical_components_component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="100" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Medical" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SRadioCommunicationComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_RadioCommunicationComponents</DisplayName>
+      <Icon>Textures\GUI\Icons\component\radio_communication_components_component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="0.5" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="RadioCommunication" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SDetectorComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_DetectorComponents</DisplayName>
+      <Icon>Textures\GUI\Icons\component\detector_components_component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="5" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Detector" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SCanvas</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_CanvasCartridge</DisplayName>
+      <Icon>Textures\GUI\Icons\component\Cartridge_Icon.dds</Icon>
+      <Prerequisites>
+		<Item Amount="6" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Canvas" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>  
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SExplosivesComponent</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Explosives</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ExplosivesComponent.dds</Icon>
+      <Prerequisites>
+		<Item Amount="356" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Explosives" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SSolarCell</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_SolarCell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\SolarCellComponent.dds</Icon>
+      <Prerequisites>
+		<Item Amount="4" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="SolarCell" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SPowerCell</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_PowerCell</DisplayName>
+      <Icon>Textures\GUI\Icons\component\BatteryComponent.dds</Icon>
+      <Prerequisites>
+		<Item Amount="1" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="PowerCell" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SAutomaticRifle</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_AutomaticRifle</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponAutomaticRifle.dds</Icon>
+      <Prerequisites>
+		<Item Amount="1" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AutomaticRifleItem" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SRapidFireAutomaticRifle</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_RapidFireAutomaticRifle</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponAutomaticRifle_RapidFire.dds</Icon>
+      <Prerequisites>
+		<Item Amount="10" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="RapidFireAutomaticRifleItem" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SPreciseAutomaticRifle</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_PreciseAutomaticRifle</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponAutomaticRifle_Precise.dds</Icon>
+      <Prerequisites>
+		<Item Amount="10" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="PreciseAutomaticRifleItem" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SUltimateAutomaticRifle</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_EliteAutomaticRifle</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponAutomaticRifle_Elite.dds</Icon>
+      <Prerequisites>
+		<Item Amount="2000" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="UltimateAutomaticRifleItem" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SWelder</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Welder</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponWelder.dds</Icon>
+      <Prerequisites>
+		<Item Amount="1" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="WelderItem" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SWelder2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Welder2</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponWelder_1.dds</Icon>
+      <Prerequisites>
+		<Item Amount="10" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="Welder2Item" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SWelder3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Welder3</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponWelder_2.dds</Icon>
+      <Prerequisites>
+		<Item Amount="100" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="Welder3Item" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SWelder4</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Welder4</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponWelder_3.dds</Icon>
+      <Prerequisites>
+		<Item Amount="1000" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="Welder4Item" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SAngleGrinder</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_AngleGrinder</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponGrinder.dds</Icon>
+      <Prerequisites>
+		<Item Amount="1" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinderItem" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SAngleGrinder2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_AngleGrinder2</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponGrinder_1.dds</Icon>
+      <Prerequisites>
+		<Item Amount="10" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder2Item" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SAngleGrinder3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_AngleGrinder3</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponGrinder_2.dds</Icon>
+      <Prerequisites>
+		<Item Amount="100" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder3Item" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SAngleGrinder4</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_AngleGrinder4</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponGrinder_3.dds</Icon>
+      <Prerequisites>
+		<Item Amount="1000" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="AngleGrinder4Item" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SHandDrill</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_HandDrill</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponDrill.dds</Icon>
+      <Prerequisites>
+		<Item Amount="1" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrillItem" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SHandDrill2</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_HandDrill2</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponDrill_1.dds</Icon>
+      <Prerequisites>
+		<Item Amount="10" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrill2Item" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SHandDrill3</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_HandDrill3</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponDrill_2.dds</Icon>
+      <Prerequisites>
+		<Item Amount="100" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrill3Item" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SHandDrill4</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_HandDrill4</DisplayName>
+      <Icon>Textures\GUI\Icons\WeaponDrill_3.dds</Icon>
+      <Prerequisites>
+		<Item Amount="1000" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="HandDrill4Item" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SNATO_5p56x45mmMagazine</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_NATO_5p56x45mm</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
+      <Prerequisites>
+		<Item Amount="10" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SNATO_25x184mmMagazine</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_NATO_25x184mm</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+		<Item Amount="100" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SMissile200mm</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Missile200mm</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
+      <Prerequisites>
+		<Item Amount="100" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SSuperconductor</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_Superconductor</DisplayName>
+      <Icon>Textures\GUI\Icons\component\superconductor_conducts_component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="200" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="Superconductor" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SOxygenBottle</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_OxygenBottle</DisplayName>
+      <Icon>Textures\GUI\Icons\component\OxygenBottleComponent.dds</Icon>
+      <Prerequisites>
+		<Item Amount="10" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="OxygenContainerObject" SubtypeId="OxygenBottle" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SHydrogenBottle</SubtypeId>
+      </Id>
+      <DisplayName>DisplayName_Item_HydrogenBottle</DisplayName>
+      <Icon>Textures\GUI\Icons\component\HydrogenBottle_Component.dds</Icon>
+      <Prerequisites>
+		<Item Amount="10" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="GasContainerObject" SubtypeId="HydrogenBottle" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
+	 <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SArcReactorcomponent</SubtypeId>
+      </Id>
+      <DisplayName>Arc Reactor Component</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ArcReactorComponent.dds</Icon>
+      <Prerequisites>
+		<Item Amount="600" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="ArcReactorcomponent" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SDenseSteelPlate</SubtypeId>
+      </Id>
+      <DisplayName>Dense Steel Plate</DisplayName>
+      <Icon>Textures\GUI\Icons\component\DenseSteelPlate.dds</Icon>
+      <Prerequisites>
+		<Item Amount="10" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="DenseSteelPlate" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+    <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>SArcFuel</SubtypeId>
+      </Id>
+      <DisplayName>Arc Fuel</DisplayName>
+      <Icon>Textures\GUI\Icons\component\ArcFuel.dds</Icon>
+      <Prerequisites>
+		<Item Amount="20" TypeId="Ingot" SubtypeId="Coin" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="Component" SubtypeId="ArcFuel" />
+      <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+    </Blueprint>
+	
   </Blueprints>
 </Definitions>
