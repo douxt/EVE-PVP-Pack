@@ -878,7 +878,7 @@
 	 <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ArcReactorcomponent</SubtypeId>
+        <SubtypeId>SArcReactorcomponent</SubtypeId>
       </Id>
       <DisplayName>Arc Reactor Component</DisplayName>
       <Icon>Textures\GUI\Icons\component\ArcReactorComponent.dds</Icon>
@@ -891,7 +891,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>DenseSteelPlate</SubtypeId>
+        <SubtypeId>SDenseSteelPlate</SubtypeId>
       </Id>
       <DisplayName>Dense Steel Plate</DisplayName>
       <Icon>Textures\GUI\Icons\component\DenseSteelPlate.dds</Icon>
@@ -904,7 +904,7 @@
     <Blueprint>
       <Id>
         <TypeId>BlueprintDefinition</TypeId>
-        <SubtypeId>ArcFuel</SubtypeId>
+        <SubtypeId>SArcFuel</SubtypeId>
       </Id>
       <DisplayName>Arc Fuel</DisplayName>
       <Icon>Textures\GUI\Icons\component\ArcFuel.dds</Icon>

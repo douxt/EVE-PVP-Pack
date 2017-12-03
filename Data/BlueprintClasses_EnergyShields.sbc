@@ -97,10 +97,10 @@
     <Entry Class="Components" BlueprintSubtypeId="PowerCell" />
     <Entry Class="Components" BlueprintSubtypeId="Superconductor" />
     <Entry Class="Components" BlueprintSubtypeId="Canvas" />-
-	
+	-->
 	<Entry Class="Components" BlueprintSubtypeId="SArcReactorcomponent" />
     <Entry Class="Components" BlueprintSubtypeId="SDenseSteelPlate" />
-    <Entry Class="Components" BlueprintSubtypeId="SArcFuel" />-->
+    <Entry Class="Components" BlueprintSubtypeId="SArcFuel" />
 	
 	<Entry Class="STools" BlueprintSubtypeId="SAutomaticRifle" />
     <Entry Class="STools" BlueprintSubtypeId="SRapidFireAutomaticRifle" />
