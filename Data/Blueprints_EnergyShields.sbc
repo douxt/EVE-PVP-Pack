@@ -293,9 +293,9 @@
       <DisplayName>DisplayName_Item_UraniumIngot</DisplayName>
       <Icon>Textures\GUI\Icons\ingot\uranium_ingot.dds</Icon>
       <Prerequisites>
-        <Item Amount="50" TypeId="Ingot" SubtypeId="Coin" />
+        <Item Amount="10" TypeId="Ingot" SubtypeId="Coin" />
       </Prerequisites>
-      <Result Amount="0.28" TypeId="Ingot" SubtypeId="Uranium" />
+      <Result Amount="1" TypeId="Ingot" SubtypeId="Uranium" />
       <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
     </Blueprint>
 	
@@ -803,7 +803,7 @@
       <DisplayName>DisplayName_Item_NATO_5p56x45mm</DisplayName>
       <Icon>Textures\GUI\Icons\ammo\Rifle_Ammo.dds</Icon>
       <Prerequisites>
-		<Item Amount="10" TypeId="Ingot" SubtypeId="Coin" />
+		<Item Amount="1" TypeId="Ingot" SubtypeId="Coin" />
       </Prerequisites>
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="NATO_5p56x45mm" />
       <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
@@ -816,7 +816,7 @@
       <DisplayName>DisplayName_Item_NATO_25x184mm</DisplayName>
       <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
       <Prerequisites>
-		<Item Amount="100" TypeId="Ingot" SubtypeId="Coin" />
+		<Item Amount="10" TypeId="Ingot" SubtypeId="Coin" />
       </Prerequisites>
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
       <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
@@ -829,7 +829,7 @@
       <DisplayName>DisplayName_Item_Missile200mm</DisplayName>
       <Icon>Textures\GUI\Icons\ammo\Small_Rocket.dds</Icon>
       <Prerequisites>
-		<Item Amount="100" TypeId="Ingot" SubtypeId="Coin" />
+		<Item Amount="10" TypeId="Ingot" SubtypeId="Coin" />
       </Prerequisites>
       <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="Missile200mm" />
       <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>

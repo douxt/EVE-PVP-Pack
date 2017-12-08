@@ -34,8 +34,8 @@ using SpaceEngineers.Game.ModAPI;
 
 namespace Cython.EnergyShields
 {
-
-    [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Assembler), true, "BlackShop")]
+		
+	 [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Assembler), true, "BlackShop")]
     public class BlackShop : MyGameLogicComponent
     {
         private MyObjectBuilder_EntityBase builder;
@@ -44,7 +44,7 @@ namespace Cython.EnergyShields
 
         Sandbox.ModAPI.IMyTerminalBlock terminalBlock;
 
-        private static ulong frameShift = 0;
+		private static ulong frameShift = 0;
         private ulong Frame;
         public override void Init(MyObjectBuilder_EntityBase objectBuilder)
         {
@@ -69,19 +69,19 @@ namespace Cython.EnergyShields
                     return;
                 }
 
-                //            IMyInventory inventory = ((Sandbox.ModAPI.IMyTerminalBlock)Entity).GetInventory(0) as IMyInventory;
+    //            IMyInventory inventory = ((Sandbox.ModAPI.IMyTerminalBlock)Entity).GetInventory(0) as IMyInventory;
 
-                //            if (!inventory.ContainItems(10000, new MyObjectBuilder_Ingot { SubtypeName = "Coin" }))
-                //            {
-                //                //inventory.AddItems(5, new MyObjectBuilder_Ingot { SubtypeName = "Coin" });
-                //                //terminalBlock.RefreshCustomInfo();
-                //            }
-                //IMyInventory inventory1 = ((Sandbox.ModAPI.IMyTerminalBlock)Entity).GetInventory(1) as IMyInventory;
-                //if (!inventory1.ContainItems(10, new MyObjectBuilder_AmmoMagazine { SubtypeName = "NATO_25x184mm" }))
-                //            {
-                //                inventory1.AddItems(1, new MyObjectBuilder_AmmoMagazine { SubtypeName = "NATO_25x184mm" });
-                //                terminalBlock.RefreshCustomInfo();
-                //            }
+    //            if (!inventory.ContainItems(10000, new MyObjectBuilder_Ingot { SubtypeName = "Coin" }))
+    //            {
+    //                //inventory.AddItems(5, new MyObjectBuilder_Ingot { SubtypeName = "Coin" });
+    //                //terminalBlock.RefreshCustomInfo();
+    //            }
+				//IMyInventory inventory1 = ((Sandbox.ModAPI.IMyTerminalBlock)Entity).GetInventory(1) as IMyInventory;
+				//if (!inventory1.ContainItems(10, new MyObjectBuilder_AmmoMagazine { SubtypeName = "NATO_25x184mm" }))
+    //            {
+    //                inventory1.AddItems(1, new MyObjectBuilder_AmmoMagazine { SubtypeName = "NATO_25x184mm" });
+    //                terminalBlock.RefreshCustomInfo();
+    //            }
 
 
                 //List<IMyPlayer> players = new List<IMyPlayer>();
@@ -150,17 +150,11 @@ namespace Cython.EnergyShields
                     return;
                 }
 
-                List<IMyPlayer> players = new List<IMyPlayer>();
-
-                MyAPIGateway.Players.GetPlayers(players, x => x.Character != null && !x.IsBot);
-
-                int count = players.Count;
-
                 IMyInventory inventory = ((Sandbox.ModAPI.IMyTerminalBlock)Entity).GetInventory(0) as IMyInventory;
 
                 if (!inventory.ContainItems(20000, new MyObjectBuilder_Ingot { SubtypeName = "Coin" }))
                 {
-                    inventory.AddItems(300 + count * 150, new MyObjectBuilder_Ingot { SubtypeName = "Coin" });
+                    inventory.AddItems(300, new MyObjectBuilder_Ingot { SubtypeName = "Coin" });
                     terminalBlock.RefreshCustomInfo();
                 }
                 //IMyInventory inventory1 = ((Sandbox.ModAPI.IMyTerminalBlock)Entity).GetInventory(1) as IMyInventory;
@@ -253,15 +247,13 @@ namespace Cython.EnergyShields
 
 
                 List<IMyPlayer> players = new List<IMyPlayer>();
-
-                //MyAPIGateway.Players.GetPlayers(players, x => x.Controller != null && x.Controller.ControlledEntity != null);
-                MyAPIGateway.Players.GetPlayers(players, x => x.Character != null && !x.IsBot);
+                MyAPIGateway.Players.GetPlayers(players, x => x.Controller != null && x.Controller.ControlledEntity != null);
                 foreach (IMyPlayer player in players)
                 {
-                    if (player.Character is IMyCharacter)
+                    if (player.Controller.ControlledEntity is IMyCharacter)
                     {
 
-                        MyEntity entity = player.Character.Entity as MyEntity;
+                        MyEntity entity = player.Controller.ControlledEntity.Entity as MyEntity;
                         if (entity.HasInventory)
                         {
                             IMyInventory inventory = entity.GetInventoryBase() as MyInventory;

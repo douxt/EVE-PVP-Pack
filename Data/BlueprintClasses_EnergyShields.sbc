@@ -70,10 +70,11 @@
   <Entry Class="Buy" BlueprintSubtypeId="CoinToSilverIngot" />
   <Entry Class="Buy" BlueprintSubtypeId="CoinToGoldIngot" />
   <Entry Class="Buy" BlueprintSubtypeId="CoinToPlatinumIngot" />
-  <Entry Class="Buy" BlueprintSubtypeId="CoinToUraniumIngot" />
+
     <Entry Class="Buy" BlueprintSubtypeId="CoinToXiaoFan" /> 
 -->	
 	   <Entry Class="Buy" BlueprintSubtypeId="CoinToIce" />
+	   <Entry Class="Buy" BlueprintSubtypeId="CoinToUraniumIngot" />
 	   <Entry Class="Buy" BlueprintSubtypeId="CoinToXiaoFan" />
 	<!--
 	<Entry Class="Components" BlueprintSubtypeId="ConstructionComponent" />
