@@ -32,7 +32,7 @@ using Sandbox.Game.Entities.Character;
 using Sandbox.Game.Gui;
 using SpaceEngineers.Game.ModAPI;
 
-namespace Cython.EnergyShields
+namespace Douxt
 {
 
     [MyEntityComponentDescriptor(typeof(MyObjectBuilder_Assembler), true, "BlackShop")]
@@ -158,9 +158,9 @@ namespace Cython.EnergyShields
 
                 IMyInventory inventory = ((Sandbox.ModAPI.IMyTerminalBlock)Entity).GetInventory(0) as IMyInventory;
 
-                if (!inventory.ContainItems(20000, new MyObjectBuilder_Ingot { SubtypeName = "Coin" }))
+                if (!inventory.ContainItems(Core.Settings.ResourceMax, new MyObjectBuilder_Ingot { SubtypeName = "Coin" }))
                 {
-                    inventory.AddItems(300 + count * 150, new MyObjectBuilder_Ingot { SubtypeName = "Coin" });
+                    inventory.AddItems(Core.Settings.ResourcePerMinute + count * Core.Settings.ResourceIncreasePerPlayerMinute, new MyObjectBuilder_Ingot { SubtypeName = "Coin" });
                     terminalBlock.RefreshCustomInfo();
                 }
                 //IMyInventory inventory1 = ((Sandbox.ModAPI.IMyTerminalBlock)Entity).GetInventory(1) as IMyInventory;
