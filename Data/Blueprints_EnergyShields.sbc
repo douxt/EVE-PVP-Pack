@@ -914,6 +914,18 @@
       <Result Amount="1" TypeId="Component" SubtypeId="ArcFuel" />
       <BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
     </Blueprint>
-	
+	<Blueprint>
+			<Id>
+				<TypeId>BlueprintDefinition</TypeId>
+				<SubtypeId>STargetingComputerComponent</SubtypeId>
+			</Id>
+			<DisplayName>TargetingComputer</DisplayName>
+			<Icon>Textures\GUI\Icons\component\computer_component.dds</Icon>
+			<Prerequisites>
+				<Item Amount="150" TypeId="Ingot" SubtypeId="Coin" />
+			</Prerequisites>
+			<Result Amount="1" TypeId="Component" SubtypeId="TargetingComputer" />
+			<BaseProductionTimeInSeconds>0.001</BaseProductionTimeInSeconds>
+		</Blueprint>	
   </Blueprints>
 </Definitions>

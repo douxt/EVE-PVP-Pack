@@ -106,6 +106,7 @@
 	<Entry Class="Components" BlueprintSubtypeId="SArcReactorcomponent" />
     <Entry Class="Components" BlueprintSubtypeId="SDenseSteelPlate" />
     <Entry Class="Components" BlueprintSubtypeId="SArcFuel" />
+	<Entry Class="Components" BlueprintSubtypeId="STargetingComputerComponent" />
 	
 	<Entry Class="STools" BlueprintSubtypeId="SAutomaticRifle" />
     <Entry Class="STools" BlueprintSubtypeId="SRapidFireAutomaticRifle" />
