@@ -24,7 +24,7 @@
         <Component Subtype="SteelPlate" Count="20" />
 		
       </Components>
-      <CriticalComponent Subtype="XiaoFan" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -40,7 +40,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\AssemblerConstruction_4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Black Shop</BlockPairName>
+      <BlockPairName>BlackShop</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -89,7 +89,7 @@
         <Component Subtype="SteelPlate" Count="20" />
 		
       </Components>
-      <CriticalComponent Subtype="DaFan" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
         <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
@@ -105,7 +105,7 @@
         <Model BuildPercentUpperBound="0.83" File="Models\Cubes\Large\AssemblerConstruction_4.mwm" />
         <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\AssemblerConstruction_5.mwm" />
       </BuildProgressModels>
-      <BlockPairName>Money Maker</BlockPairName>
+      <BlockPairName>MoneyMaker</BlockPairName>
       <EdgeType>Light</EdgeType>
       <BuildTimeSeconds>80</BuildTimeSeconds>
       <ResourceSinkGroup>Factory</ResourceSinkGroup>
@@ -151,7 +151,7 @@
         <Component Subtype="Construction" Count="5" />
         <Component Subtype="InteriorPlate" Count="10" />
       </Components>
-      <CriticalComponent Subtype="DaFan" Index="0" />
+      <CriticalComponent Subtype="Computer" Index="0" />
       <MountPoints>
         <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
         <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />

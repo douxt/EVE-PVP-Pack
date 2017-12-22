@@ -16,6 +16,8 @@ namespace Douxt
         #region TextConstants
         private static readonly string EVEHELP = @"欢迎!请加QQ群：116381172  以便和大家一起玩！
 
+注意：服务器范围为半径50KM，请务必注意这点，出界会船毁人亡！
+		
 本服务器的基本玩法：
 1.获取资源：只要在线玩家背包就会发放少量小凡币。资源点信标处会产生大量小凡币，而且在线人数越多，产生速度越快。
 
